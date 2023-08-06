@@ -1,0 +1,25 @@
+/* Add your existing CSS styles */
+
+/* Style the suggestions popup */
+.suggestions {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(149, 148, 148);
+    border: 1px solid #b6b3b3;
+    width: 210px;
+    max-height: 300px;
+    overflow-y: auto;
+    list-style: none;
+  }
+  
+  .suggestions li {
+    padding: 8px;
+    padding-left: 5px; 
+    cursor: pointer;
+  }
+  
+  .suggestions li:hover {
+    background-color: #d1cbcb;
+    
+  }
+  
